@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "841CYyorbNC2sHLNG3JAnHmJ5cqenRr5cvqbHxfTqBhnUFuihbyG/27th+3f2PPJx0DeVhrLBYA9+JDNetLJgg==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\SOFT-TrabFinal\\Code Rpg Learning\\Code Rpg Learning\\Code Rpg Learning\\Code Rpg Learning.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gonca\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
