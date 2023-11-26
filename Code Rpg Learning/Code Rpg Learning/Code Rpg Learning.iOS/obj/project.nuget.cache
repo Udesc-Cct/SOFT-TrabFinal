@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "opRC7nzaqfx5lhiHT5RzRHOD+4z2MCyxuCcW0WFhTtlR6Rf5S1UvbhJGYMUpRM7r4xBrl8UxqHw4/zs/kO9phQ==",
+  "dgSpecHash": "LoX2ojsGQUqZoPg8FQn26xWeHq5dWQg5nEl/oX4qi3eEF4NpqUVPtoTCgbWXhSxkYqEpSXV8Vq2YuIOPw1tt3Q==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\SOFT-TrabFinal\\Code Rpg Learning\\Code Rpg Learning\\Code Rpg Learning.iOS\\Code Rpg Learning.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gonca\\.nuget\\packages\\materialdesign.icons\\1.1.0\\materialdesign.icons.1.1.0.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\gonca\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\gonca\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\gonca\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\gonca\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

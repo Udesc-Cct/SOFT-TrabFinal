@@ -23,6 +23,8 @@ namespace Code_Rpg_Learning.Droid
                 Window.SetStatusBarColor(Android.Graphics.Color.Black);
             }
 
+            RequestedOrientation = ScreenOrientation.Portrait;
+
             LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
@@ -30,6 +32,11 @@ namespace Code_Rpg_Learning.Droid
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+        public override void OnBackPressed()
+        {
+            // Comentamos totalmente o código para desativar o botão "Back"
+            // base.OnBackPressed();
         }
     }
 }

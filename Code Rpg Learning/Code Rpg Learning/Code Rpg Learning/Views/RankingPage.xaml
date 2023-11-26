@@ -41,7 +41,7 @@
         <StackLayout>
             <Label Text="Ranking" Style="{DynamicResource Titulo}" FontSize="Title" HorizontalOptions="Center" Margin="0,30,0,10" />
 
-            <ListView ItemsSource="{Binding Rankings}" Margin="20" >
+            <ListView ItemsSource="{Binding Rankings}" Margin="20" BackgroundColor="#6D4D42" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

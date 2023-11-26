@@ -3,6 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Code_Rpg_Learning.Views.BaseView"
              NavigationPage.HasNavigationBar="False">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ButtonMagico" TargetType="Button" >
+                <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+                <Setter Property="Background" Value = "#67412C"   />
+                <Setter Property="Margin" Value = "5"   />
+                <Setter Property="FontSize" Value = "24"   />
+                <Setter Property="FontAttributes" Value = "Bold"   />
+                <Setter Property="BorderColor" Value = "#382E21"   />
+                <Setter Property="CornerRadius" Value="6" />
+                <Setter Property="BorderWidth" Value = "5"   />
+                <Setter Property="HeightRequest" Value = "60"   />
+                <Setter Property="TextColor" Value = "#FFFFFF" />
+                <Setter Property="WidthRequest" Value = "240"   />
+            </Style>
+            <Style x:Key="TextoMagico" TargetType="Label" >
+                <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+                <Setter Property="FontFamily" Value = ""   />
+                <Setter Property="FontSize" Value = "26"   />
+                <Setter Property="TextColor" Value = "#FFFFFF" />
+            </Style>
+            <Style x:Key="EntryMagico" TargetType="Entry" >
+                <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+                <Setter Property="FontSize" Value = "24"   />
+                <Setter Property="TextColor" Value = "#FFFFFF" />
+            </Style>
+            <Style x:Key="Titulo" TargetType="Label" >
+                <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+                <Setter Property="FontSize" Value = "60"   />
+                <Setter Property="TextColor" Value = "#FFFFFF" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <Grid>
             <Grid>
@@ -16,14 +49,16 @@
                     <Button Grid.Column="0" Text="&lt;" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="PreviousButton_Clicked" />
                     <Button Grid.Column="2" Text="&gt;" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="NextButton_Clicked" />
                 </Grid>
+                <Label Text="Selecionar Ilha" Style="{DynamicResource Titulo}" FontSize="Title" HorizontalOptions="Center" Margin="0,30,0,10" />
+                <Button Style="{DynamicResource Titulo}" Margin="100" HeightRequest="40" Text="Selecionar!" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="Button_Clicked" />
             </Grid>
             <!-- Conteúdo da página -->
 
             <StackLayout VerticalOptions="End" BackgroundColor="#6D4D42">
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
+           
+                        <ColumnDefinition Width="*" />             <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>

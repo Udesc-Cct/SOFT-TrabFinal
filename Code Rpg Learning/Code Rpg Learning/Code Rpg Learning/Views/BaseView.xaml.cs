@@ -73,5 +73,9 @@ namespace Code_Rpg_Learning.Views
             await Navigation.PushAsync(new RankingPage(), false);
         }
 
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
