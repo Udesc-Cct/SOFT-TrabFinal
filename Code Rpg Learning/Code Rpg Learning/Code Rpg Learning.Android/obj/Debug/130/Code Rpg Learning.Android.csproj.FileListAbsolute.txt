@@ -652,3 +652,10 @@ C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.A
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.Android\obj\Debug\130\res\drawable\ilha002.jpg
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.Android\obj\Debug\130\res\drawable\ilha003.jpg
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.Android\obj\Debug\130\res\drawable\ilha001.jpg
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.Android\obj\Debug\130\android\assets\Microsoft.Bcl.AsyncInterfaces.dll
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.Android\obj\Debug\130\android\assets\System.Buffers.dll
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.Android\obj\Debug\130\android\assets\System.Memory.dll
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.Android\obj\Debug\130\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.Android\obj\Debug\130\android\assets\System.Text.Encodings.Web.dll
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.Android\obj\Debug\130\android\assets\System.Text.Json.dll
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning.Android\obj\Debug\130\android\assets\System.Threading.Tasks.Extensions.dll

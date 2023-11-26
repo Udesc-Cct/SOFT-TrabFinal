@@ -42,28 +42,12 @@
             <Label x:Name="Titulo"  Text="CODE RPG LEARNING" Style="{DynamicResource Titulo}" 
                    HorizontalOptions="Center" Margin="10,40,10,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" x:Name="Margem"  Margin="0,30,1,30" >
-                <Label 
-                    Style="{DynamicResource EntryMagico}"
-                    Text="NOME DE USUARIO:"
-                    />
-                <Entry
-                    Style="{DynamicResource EntryMagico}"
-                    WidthRequest="100"/>
-                <Label 
-                    Style="{DynamicResource EntryMagico}"
-                    Text="SENHA:"
-                    />
-                <Entry
-                    Style="{DynamicResource EntryMagico}"
-                    WidthRequest="100"/>
-                <Button
-                        Style="{DynamicResource ButtonMagico}"
-                        x:Name="Creditos"
-                        Text="ENTRAR" />
-                <Button
-                        Style="{DynamicResource ButtonMagico}"
-                    Clicked="Button_Clicked"
-                        Text="CADASTRO" />
+                <Label Style="{DynamicResource EntryMagico}" Text="NOME DE USUARIO:" />
+                <Entry Style="{DynamicResource EntryMagico}" WidthRequest="100" x:Name="NomeEntry" />
+                <Label Style="{DynamicResource EntryMagico}" Text="SENHA:" />
+                <Entry Style="{DynamicResource EntryMagico}" IsPassword="True" WidthRequest="100" x:Name="SenhaEntry" />
+                <Button x:Name="ENTRAR" Clicked="ENTRAR_Clicked" Style="{DynamicResource ButtonMagico}" Text="ENTRAR" />
+                <Button x:Name="CADASTRO" Clicked="CADASTRO_Clicked" Style="{DynamicResource ButtonMagico}" Text="CADASTRO" />
             </StackLayout>
         </StackLayout>
     </StackLayout>

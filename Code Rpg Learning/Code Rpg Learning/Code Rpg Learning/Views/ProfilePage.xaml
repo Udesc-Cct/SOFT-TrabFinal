@@ -43,10 +43,10 @@
             <StackLayout BackgroundColor="AliceBlue">
             <Image Source="Wizard.png" BackgroundColor="#382E21" WidthRequest="150" HeightRequest="150" Margin="4" />
             </StackLayout>
-            <Label Text="Garrido2002" Style="{DynamicResource Titulo}" FontSize="Title" HorizontalOptions="Center" Margin="0,20,0,10" />
-            <Label Text="PONTUACAO: 22" Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" />
-            <Label Text="{Binding Pontuacao}" Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" Margin="0,5" />
-            <Label Text="EXPERIENCIA: 12" Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" />
+            <Label Text="Garrido2002"           Style="{DynamicResource Titulo}" FontSize="Title" HorizontalOptions="Center" Margin="0,20,0,10" />
+            <Label Text="PONTUACAO: 22"         Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" />
+            <Label Text="{Binding Pontuacao}"   Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" Margin="0,5" />
+            <Label Text="EXPERIENCIA: 12"       Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" />
             <Label Text="{Binding Experiencia}" Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" Margin="0,5" />
         </StackLayout>
 

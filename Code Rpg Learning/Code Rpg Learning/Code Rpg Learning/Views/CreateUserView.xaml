@@ -46,33 +46,16 @@
                     Style="{DynamicResource EntryMagico}"
                     Text="NOME DE USUARIO:"
                     />
-                <Entry
-                    Style="{DynamicResource EntryMagico}"
-                    WidthRequest="100"/>
+                <Entry Style="{DynamicResource EntryMagico}" WidthRequest="100" x:Name="NomeEntry" />
                 <Label 
                     Style="{DynamicResource EntryMagico}"
                     Text="SENHA:"
                     />
-                <Entry
-                    Style="{DynamicResource EntryMagico}"
-                    WidthRequest="100"/>
-                <Label 
-                    Style="{DynamicResource EntryMagico}"
-                    Text="CONFIRMAR SENHA:"
-                    />
-                                <Entry
-                    Style="{DynamicResource EntryMagico}"
-                    WidthRequest="100"/>
-                <Button
-                    x:Name="CADASTRAR"
-                    Clicked="CADASTRAR_Clicked"
-                        Style="{DynamicResource ButtonMagico}"  
-                        Text="CADASTRAR" />
-                <Button
-                    x:Name="CANCELAR"
-                    Clicked="CANCELAR_Clicked"
-                        Style="{DynamicResource ButtonMagico}"
-                        Text="CANCELAR" />
+                <Entry Style="{DynamicResource EntryMagico}" IsPassword="True" WidthRequest="100" x:Name="SenhaEntry" />
+                <Label Style="{DynamicResource EntryMagico}" Text="CONFIRMAR SENHA:" />
+                <Entry Style="{DynamicResource EntryMagico}" IsPassword="True" WidthRequest="100" x:Name="ConfirmarSenhaEntry" />
+                <Button x:Name="CADASTRAR" Clicked="CADASTRAR_Clicked" Style="{DynamicResource ButtonMagico}" Text="CADASTRAR" />
+                <Button x:Name="CANCELAR" Clicked="CANCELAR_Clicked" Style="{DynamicResource ButtonMagico}" Text="CANCELAR" />
             </StackLayout>
         </StackLayout>
     </StackLayout>

@@ -35,12 +35,6 @@ namespace Code_Rpg_Learning.Views
         {
             await Navigation.PushAsync(new RankingPage(), false);
         }
-        public enum ClasseEnum
-        {
-            Mago,
-            Guerreiro,
-            Druida
-        }
 
         public class Ranking
         {

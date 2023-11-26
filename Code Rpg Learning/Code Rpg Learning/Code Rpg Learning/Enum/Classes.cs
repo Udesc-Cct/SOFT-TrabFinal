@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Code_Rpg_Learning.Enum
+namespace Code_Rpg_Learning
 {
-    internal class Classes
+    public enum ClasseEnum
     {
+        Mago,
+        Guerreiro,
+        Druida
     }
 }
