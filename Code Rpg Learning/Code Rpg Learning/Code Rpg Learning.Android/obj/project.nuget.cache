@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uijK5xT62wE2VYslAl2VfAM/9I4PHbN5rHrqWggokXv2w+IYB9x4s27xhIqRAxJUl/P94vZ0YXuTq0y5J/KbEw==",
+  "dgSpecHash": "d+WUDfQZ+E0j4FuFc+TQTyMQVqAFsGpXcEf27raC6le09yM+q05XrC8kdlbEEvUZoTraECX1N4dXGAocLvj44A==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\SOFT-TrabFinal\\Code Rpg Learning\\Code Rpg Learning\\Code Rpg Learning.Android\\Code Rpg Learning.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gonca\\.nuget\\packages\\materialdesign.icons\\1.1.0\\materialdesign.icons.1.1.0.nupkg.sha512",
     "C:\\Users\\gonca\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\gonca\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\gonca\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",

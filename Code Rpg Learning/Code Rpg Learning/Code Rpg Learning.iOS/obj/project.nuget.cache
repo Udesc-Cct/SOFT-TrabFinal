@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cSjkkQcqrviTDklVYpxtm1fuNd8L17LB5f1wPvfzyrb8wgA6HG69HZwi/XGnKbeby0dfvpY9IqTH0F2auxdY3w==",
+  "dgSpecHash": "opRC7nzaqfx5lhiHT5RzRHOD+4z2MCyxuCcW0WFhTtlR6Rf5S1UvbhJGYMUpRM7r4xBrl8UxqHw4/zs/kO9phQ==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\SOFT-TrabFinal\\Code Rpg Learning\\Code Rpg Learning\\Code Rpg Learning.iOS\\Code Rpg Learning.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gonca\\.nuget\\packages\\materialdesign.icons\\1.1.0\\materialdesign.icons.1.1.0.nupkg.sha512",
     "C:\\Users\\gonca\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\gonca\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\gonca\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"

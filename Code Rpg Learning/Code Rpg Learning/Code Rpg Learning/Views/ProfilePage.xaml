@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Code_Rpg_Learning.Views.ProfilePage"
+             BackgroundColor="#67412C"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ButtonMagico" TargetType="Button" >
+                <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+                <Setter Property="Background" Value = "#67412C"   />
+                <Setter Property="Margin" Value = "5"   />
+                <Setter Property="FontSize" Value = "24"   />
+                <Setter Property="FontAttributes" Value = "Bold"   />
+                <Setter Property="BorderColor" Value = "#382E21"   />
+                <Setter Property="CornerRadius" Value="6" />
+                <Setter Property="BorderWidth" Value = "5"   />
+                <Setter Property="HeightRequest" Value = "60"   />
+                <Setter Property="TextColor" Value = "#FFFFFF" />
+                <Setter Property="WidthRequest" Value = "240"   />
+            </Style>
+            <Style x:Key="TextoMagico" TargetType="Label" >
+                <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+                <Setter Property="FontFamily" Value = ""   />
+                <Setter Property="FontSize" Value = "26"   />
+                <Setter Property="TextColor" Value = "#FFFFFF" />
+            </Style>
+            <Style x:Key="EntryMagico" TargetType="Entry" >
+                <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+                <Setter Property="FontSize" Value = "24"   />
+                <Setter Property="TextColor" Value = "#FFFFFF" />
+            </Style>
+            <Style x:Key="Titulo" TargetType="Label" >
+                <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+                <Setter Property="FontSize" Value = "60"   />
+                <Setter Property="TextColor" Value = "#FFFFFF" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid>
+        <Label Text="PERFIL" Style="{DynamicResource Titulo}" FontSize="Title" HorizontalOptions="Center" Margin="0,30,0,10" />
+        <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Margin="0,120,0,0">
+            <StackLayout BackgroundColor="AliceBlue">
+            <Image Source="Wizard.png" BackgroundColor="#382E21" WidthRequest="150" HeightRequest="150" Margin="4" />
+            </StackLayout>
+            <Label Text="Garrido2002" Style="{DynamicResource Titulo}" FontSize="Title" HorizontalOptions="Center" Margin="0,20,0,10" />
+            <Label Text="PONTUACAO: 22" Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" />
+            <Label Text="{Binding Pontuacao}" Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" Margin="0,5" />
+            <Label Text="EXPERIENCIA: 12" Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" />
+            <Label Text="{Binding Experiencia}" Style="{DynamicResource Titulo}" FontSize="Medium" HorizontalOptions="Center" Margin="0,5" />
+        </StackLayout>
+
+        <!-- Conteúdo da página -->
+
+        <StackLayout VerticalOptions="End" BackgroundColor="#6D4D42">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <ImageButton HeightRequest="70" BackgroundColor="#6D4D42" Source="Castle.png" Grid.Column="0" Clicked="Item1CommandExecute" />
+                <ImageButton HeightRequest="70" BackgroundColor="#6D4D42" Source="person.png" Grid.Column="1" Clicked="Item2CommandExecute"  />
+                <ImageButton HeightRequest="70" BackgroundColor="#6D4D42" Source="friends.png" Grid.Column="2" Clicked="Item3CommandExecute"  />
+                <ImageButton HeightRequest="70" BackgroundColor="#6D4D42" Source="achievement.png" Grid.Column="3" Clicked="Item4CommandExecute"  />
+            </Grid>
+        </StackLayout>
+    </Grid>
+</ContentPage>

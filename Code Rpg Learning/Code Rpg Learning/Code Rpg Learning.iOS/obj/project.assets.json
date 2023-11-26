@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "MaterialDesign.Icons/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MaterialDesign.Icons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MaterialDesign.Icons.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -175,6 +184,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MaterialDesign.Icons": "1.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -187,6 +197,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "MaterialDesign.Icons/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MaterialDesign.Icons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MaterialDesign.Icons.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -360,6 +379,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MaterialDesign.Icons": "1.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -372,6 +392,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-arm64": {
+      "MaterialDesign.Icons/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MaterialDesign.Icons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MaterialDesign.Icons.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -545,6 +574,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MaterialDesign.Icons": "1.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -557,6 +587,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "MaterialDesign.Icons/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MaterialDesign.Icons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MaterialDesign.Icons.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -730,6 +769,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MaterialDesign.Icons": "1.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -742,6 +782,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "MaterialDesign.Icons/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MaterialDesign.Icons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MaterialDesign.Icons.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -915,6 +964,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MaterialDesign.Icons": "1.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -928,6 +978,18 @@
     }
   },
   "libraries": {
+    "MaterialDesign.Icons/1.1.0": {
+      "sha512": "ZvZ+2dCFmgMFQWDjV80C+tnTzZ28O00BquL6AI4zbJf1jIeDfr75WizaCPSvP3i+0Q05ZmD9FJxrNiOTveGZng==",
+      "type": "package",
+      "path": "materialdesign.icons/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MaterialDesign.Icons.dll",
+        "materialdesign.icons.1.1.0.nupkg.sha512",
+        "materialdesign.icons.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1242,6 +1304,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Code Rpg Learning >= 1.0.0",
+      "MaterialDesign.Icons >= 1.1.0",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
@@ -1288,6 +1351,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "MaterialDesign.Icons": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"

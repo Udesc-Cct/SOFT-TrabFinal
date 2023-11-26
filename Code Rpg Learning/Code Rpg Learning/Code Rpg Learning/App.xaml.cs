@@ -14,7 +14,7 @@ namespace Code_Rpg_Learning
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new LoginView()); 
         }
 
         protected override void OnStart()
