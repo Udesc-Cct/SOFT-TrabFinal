@@ -2,22 +2,22 @@
 No projeto final de SOFT você e sua equipe deverão selecionar um problema a ser solucionado por um software, e especificar o desenvolvimento de tal software. Os seguintes itens devem ser documentados na forma de um documento de texto para a entrega:
 # Tarefas
 ## Ecrãs
-- [ ] Login
-- [ ] Criar Conta
-- [ ] Forum
-- [ ] Ranking
+- [x] Login
+- [x] ⚠️Criar Conta
+- [x] Forum
+- [x] Ranking
 - [ ] Aulas
 - [ ] Niveis
-  - [ ] Lilhas
+  - [x] Lilhas
   - [ ] Boss´s
 ## Funcionalidades
-- [ ] Sistema de Login;
-  - [ ] Criação de Conta;
-  - [ ] Entrar na Conta;
+- [x] Sistema de Login;
+  - [x] ⚠️Criação de Conta;
+  - [x] Entrar na Conta;
 - [ ] Quizes em C#;
-- [ ] Sistema de Amizade;
+- [x] ⚠️Sistema de Amizade;
 - [ ] Sistema de Ilhas,Niveis e Boss´s;
-  - [ ] Ilhas;
+  - [x] Ilhas;
   - [ ] Niveis;
   - [ ] Boss´s;
   - [ ] Cada ilha tem um Nivel;
@@ -25,5 +25,5 @@ No projeto final de SOFT você e sua equipe deverão selecionar um problema a se
   - [ ] feedbacks ao final de cada dungeon para saber se meu código foi eficiente; (S/NS)
   - [ ] feedback geral da Ilha;
 - [ ] Aba conteúdo teóricopara estudar;
-- [ ] ranking diário e geral comparado com outros usuários;
+- [x] ranking diário e geral comparado com outros usuários;
 - [ ] Fórum para comentar sobre dúvidas;
