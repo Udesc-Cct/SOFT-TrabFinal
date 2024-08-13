@@ -4,6 +4,8 @@ using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
+using Code_Rpg_Learning.Classes;
+using System.IO;
 
 namespace Code_Rpg_Learning.Droid
 {
@@ -37,6 +39,13 @@ namespace Code_Rpg_Learning.Droid
         {
             // Comentamos totalmente o código para desativar o botão "Back"
             // base.OnBackPressed();
+        }
+        public class FileSystem_Android : IFileSystem
+        {
+            public string GetAppDataFolderPath()
+            {
+                return Path.Combine(Android.App.Application.Context.GetExternalFilesDir(null).AbsolutePath);
+            }
         }
     }
 }

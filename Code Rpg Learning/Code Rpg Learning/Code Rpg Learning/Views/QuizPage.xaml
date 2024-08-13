@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#67412C"
+             x:Class="Code_Rpg_Learning.Views.QuizPage">
+    <ContentPage.Resources>
+    <ResourceDictionary>
+        <Style TargetType="Button" >
+            <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+            <Setter Property="Background" Value = "#67412C"   />
+            <Setter Property="Margin" Value = "5"   />
+            <Setter Property="FontSize" Value = "24"   />
+            <Setter Property="FontAttributes" Value = "Bold"   />
+            <Setter Property="BorderColor" Value = "#382E21"   />
+            <Setter Property="CornerRadius" Value="6" />
+            <Setter Property="BorderWidth" Value = "5"   />
+            <Setter Property="HeightRequest" Value = "60"   />
+            <Setter Property="TextColor" Value = "#FFFFFF" />
+            <Setter Property="WidthRequest" Value = "240"   />
+        </Style>
+        <Style TargetType="Label" >
+            <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+            <Setter Property="FontFamily" Value = ""   />
+            <Setter Property="FontSize" Value = "26"   />
+            <Setter Property="TextColor" Value = "#FFFFFF" />
+        </Style>
+        <Style x:Key="EntryMagico" TargetType="Entry" >
+            <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+            <Setter Property="FontSize" Value = "24"   />
+            <Setter Property="TextColor" Value = "#FFFFFF" />
+        </Style>
+        <Style x:Key="Titulo" TargetType="Label" >
+            <Setter Property="FontFamily" Value = "{OnPlatform Android='TheWildBreathOfZelda-15Lv.ttf#Regular', iOS='TheWildBreathOfZelda-15Lv'}"   />
+            <Setter Property="FontSize" Value = "60"   />
+            <Setter Property="TextColor" Value = "#FFFFFF" />
+        </Style>
+    </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="perguntaLabel" FontSize="20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+            <StackLayout x:Name="respostasStackLayout" Spacing="10" />
+            <Button Style="{DynamicResource ButtonMagico}" Text="Confirmar" Clicked="ConfirmarButtonClicked" HorizontalOptions="Center" IsVisible="False" />
+            <Label x:Name="resultadoLabel" FontSize="20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsVisible="False" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

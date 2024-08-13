@@ -8,12 +8,12 @@ namespace Code_Rpg_Learning.Classes
     {
         public string Nome { get; set; }
         public string Teoria { get; set; }
-        public List<string> ExerciciosExtras { get; set; }
+        public List<Perguntas> Perguntas { get; set; }
         public string Dungeon { get; set; }
 
         public Nivel()
         {
-            ExerciciosExtras = new List<string>();
+            Perguntas = new List<Perguntas>();
         }
 
         public void CriarNivel(string nome)
@@ -28,7 +28,7 @@ namespace Code_Rpg_Learning.Classes
 
         public void AdicionarExercicio(string exercicio)
         {
-            ExerciciosExtras.Add(exercicio);
+            //Perguntas.Add(exercicio);
         }
 
         public void AdicionarDungeon(string dungeon)

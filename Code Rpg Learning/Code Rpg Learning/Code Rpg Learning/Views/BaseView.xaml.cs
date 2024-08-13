@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Code_Rpg_Learning.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -75,7 +76,77 @@ namespace Code_Rpg_Learning.Views
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+            Ilha ilha = new Ilha
+            {
+                Nome = "Ilha dos Fundamentos",
+                ListaDeNiveis = new List<Nivel>
+                {
+                    new Nivel
+                    {
+                        Nome = "Nível 1",
+                        Teoria = "Teoria do Nível 1",
+                        Dungeon = "Dungeon do Nível 1",
+                        Perguntas = new List<Perguntas>
+                        {
+                            new Perguntas
+                            {
+                                NumeroDePergunta = 1,
+                                Pergunta = "Qual é a sintaxe correta para declarar uma variável inteira em C#?",
+                                IndiceRespostaCerta = 0,
+                                Respostas = new List<string>
+                                {
+                                    "int minhaVariavel;",
+                                    "int minhaVariavel();",
+                                    "var minhaVariavel = int;",
+                                    "string minhaVariavel;"
+                                }
+                            },
+                            new Perguntas
+                            {
+                                NumeroDePergunta = 2,
+                                Pergunta = "O que é um comentário de linha em C# e qual é a sua finalidade?",
+                                IndiceRespostaCerta = 0,
+                                Respostas = new List<string>
+                                {
+                                    "Um comentário de linha é um trecho de código que é ignorado pelo compilador e serve para adicionar informações ou explicar o código.",
+                                    "Um comentário de linha é um código executável em C# que serve para adicionar informações ou explicar o código.",
+                                    "Um comentário de linha é uma variável que armazena um trecho de texto em C#.",
+                                    "Um comentário de linha é um tipo de dado em C# que armazena um valor numérico."
+                                }
+                            },
+                            new Perguntas
+                            {
+                                NumeroDePergunta = 3,
+                                Pergunta = "Quais são os operadores aritméticos básicos em C#?",
+                                IndiceRespostaCerta = 0,
+                                Respostas = new List<string>
+                                {
+                                    "+, -, *, /",
+                                    "+, -, *, %",
+                                    "+, -, /, ^",
+                                    "+, -, *, &"
+                                }
+                            },
+                            new Perguntas
+                            {
+                                NumeroDePergunta = 4,
+                                Pergunta = "Como podemos converter um valor inteiro em uma string em C#?",
+                                IndiceRespostaCerta = 0,
+                                Respostas = new List<string>
+                                {
+                                    "Utilizando o método .ToString()",
+                                    "Utilizando o método Convert.ToInt32()",
+                                    "Utilizando o método ToInt32()",
+                                    "Utilizando o método Parse()"
+                                }
+                            }
+                        }
+                    },
+                    // Outros níveis...
+                }
+            };
 
+            Navigation.PushAsync(new LevelPage(ilha));
         }
     }
 }

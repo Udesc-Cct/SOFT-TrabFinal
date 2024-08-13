@@ -9,11 +9,14 @@ C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\o
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\BaseView.xaml.g.cs
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\CreateUserView.xaml.g.cs
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\FriendsPage.xaml.g.cs
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\RankingPage.xaml.g.cs
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Code Rpg Learning.AssemblyInfoInputs.cache
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Code Rpg Learning.AssemblyInfo.cs
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Code Rpg Learning.csproj.CoreCompileInputs.cache
@@ -21,6 +24,5 @@ C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\o
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Code Rpg Learning.dll
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\refint\Code Rpg Learning.dll
 C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Code Rpg Learning.pdb
-C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
-C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\FriendsPage.xaml.g.cs
-C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\RankingPage.xaml.g.cs
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\LevelPage.xaml.g.cs
+C:\GitHub\SOFT-TrabFinal\Code Rpg Learning\Code Rpg Learning\Code Rpg Learning\obj\Debug\netstandard2.0\Views\QuizPage.xaml.g.cs

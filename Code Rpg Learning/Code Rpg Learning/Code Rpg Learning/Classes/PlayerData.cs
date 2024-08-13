@@ -1,8 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.IO;
 using System.Text.Json;
+using Xamarin.Essentials;
+using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 
 namespace Code_Rpg_Learning.Classes
 {
@@ -15,13 +16,13 @@ namespace Code_Rpg_Learning.Classes
         public void SalvarJsonData()
         {
             string jsonData = JsonSerializer.Serialize(this);
-            string filePath = Path.Combine(Environment.CurrentDirectory, "playerdata.json");
+            string filePath = GetFilePath();
             File.WriteAllText(filePath, jsonData);
         }
 
         public static PlayerData CarregarJsonData()
         {
-            string filePath = Path.Combine(Environment.CurrentDirectory, "playerdata.json");
+            string filePath = GetFilePath();
             if (File.Exists(filePath))
             {
                 string jsonData = File.ReadAllText(filePath);
@@ -35,11 +36,49 @@ namespace Code_Rpg_Learning.Classes
 
         public static void ExcluirJsonData()
         {
-            string filePath = Path.Combine(Environment.CurrentDirectory, "playerdata.json");
+            string filePath = GetFilePath();
             if (File.Exists(filePath))
             {
                 File.Delete(filePath);
             }
         }
+
+        public static bool VerificarJogadorESenha(string nome, string senha)
+        {
+            PlayerData playerData = CarregarJsonData();
+            if (playerData != null && playerData.Nome == nome && playerData.PalavraPasse == senha)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public static bool VerificarExistenciaArquivo()
+        {
+            string filePath = GetFilePath();
+            return File.Exists(filePath);
+        }
+
+        private static string GetFilePath()
+        {
+            try
+            {
+                string fileName = "playerdata.json";
+                string folderPath = DependencyService.Get<IFileSystem>().GetAppDataFolderPath();
+                return Path.Combine(folderPath, fileName);
+            }
+            catch (Exception)
+            {
+                return "";
+            }
+            
+        }
+    }
+    public interface IFileSystem
+    {
+        string GetAppDataFolderPath();
     }
 }
